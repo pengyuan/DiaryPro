@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TableRow>
+		<TextView android:text="@string/acc" 
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:layout_weight="0.1"
+		android:textSize="18px"
+		android:layout_gravity="center"/>	
+		
+		<EditText android:id="@+id/edit_acc" 
+		android:layout_width="fill_parent"
+		android:layout_weight="0.9"
+		android:layout_height="wrap_content"
+		android:inputType="textPersonName"/>
+	</TableRow>
+	
+	<TableRow>
+		<TextView android:text="@string/psw" 
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:layout_weight="0.1"
+		android:textSize="18px"
+		android:layout_gravity="center"/>
+		
+		<EditText android:id="@+id/edit_psw" 
+		android:layout_width="111dp" 
+		android:layout_weight="0.9"
+		android:layout_height="wrap_content"
+		android:inputType="textPassword"/>
+	</TableRow>
+	
+	<TableRow android:paddingLeft="150px">
+		<Button android:id="@+id/btn_reg_new"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:textSize="18px"
+		android:text="@string/reg"/>
+		
+		<Button android:id="@+id/btn_log"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textSize="18px"
+		android:text="@string/log"/>		
+	</TableRow>
+</TableLayout>

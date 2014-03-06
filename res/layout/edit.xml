@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+    <LinearLayout
+  	android:orientation="vertical"
+  	android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<TextView android:layout_height="wrap_content" 
+			android:layout_width="fill_parent"
+			android:textSize="18px"
+			android:text="天气"/>
+		<Spinner android:id="@+id/spinner"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="下拉菜单"
+			android:drawSelectorOnTop="true" 
+			android:prompt="@string/spinner_title"/>
+	</LinearLayout>		
+  	<LinearLayout
+  	android:orientation="vertical"
+  	android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<TextView android:layout_height="wrap_content" 
+			android:layout_width="fill_parent"
+			android:textSize="18px"
+			android:text="标题"/>
+		<EditText android:layout_height="wrap_content" 
+			android:layout_width="fill_parent" 
+			android:id="@+id/edit_edit_title"/>
+	</LinearLayout>		
+	
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textSize="18px"
+		android:text="内容"/>
+		
+	<EditText android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:scrollbars="vertical" 
+		android:id="@+id/edit_edit_content" 
+		android:height="200px"/>
+		
+	<Button android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:id="@+id/edit_btn_save"
+		android:textSize="18px"
+		android:text="保存"/>
+</LinearLayout>

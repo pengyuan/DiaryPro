@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DiaryPro</string>
+    <string name="acc">账号</string>
+    <string name="psw">密码</string>
+    <string name="reg">注册</string>
+    <string name="log">登录</string>
+    <string name="spinner_title">选择天气</string>
+    <string name="searchLabel">搜索</string>
+    <string name="searchHint">搜索日记</string>
+</resources>
